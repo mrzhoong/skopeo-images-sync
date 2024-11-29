@@ -2,6 +2,8 @@
 docker.io:
   tls-verify: false
   images:
+    neilpang/acme.sh:
+      - latest
     alpine:
       - latest
       - 3.20.0
